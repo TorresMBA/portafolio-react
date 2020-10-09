@@ -17,7 +17,7 @@ const careerInfo = [
     icon: <GoBrowser />,
     title: 'Desarrollo Frontend',
     description:
-      'Tecnologías que aprendí en mi camino como desarrollador back-end. Algunos de ellos son importantes en mi día a día, y otras estoy ansioso de volver usarlas.',
+      'Tecnología que aprendí en mi camino como desarrollador backend. Algunos de ellos son importantes en mi día a día, y otras estoy ansioso de volver usarlas.',
     knowledgeList:
       'HTML5, CSS3, Sass, JavaScript, JQuery, ReactJs, Angular, Shopify',
   },
@@ -27,7 +27,7 @@ const careerInfo = [
     title: 'Desarrollo Backend & Otros',
     description:
       //'Technologies that I&apos;ve learned on my journey. Some of them crucial on my day by day, others looking forward to using again.',
-      'Mi rama principal, he trabajado principalmente como desarrollador back-end y me fascina. Me gusta dar soluciones a los problemas que se presenta mediante el software',
+      'Mi rama principal, he trabajado principalmente como desarrollador backend y me fascina. Me gusta dar soluciones a los problemas que se presenta mediante el software',
     knowledgeList:
       'C#, Git, Github, JavaScript, NodeJs, Java, Python, PHP, MongoDB, PostgreSQL, MySQL, SQL Server',
   },

@@ -110,8 +110,7 @@ const LandingPage = ({ location: { pathname } }) => (
           </Title>
         </TitleWrapper>
         <Typography textAlign="center">
-          Soy un desarrollador web, apasionado por lo que hago, esto me 
-          motiva a estar constantemente aprendiendo algo nuevo
+        Soy desarrollador web, me apasiona lo que hago y esto me motiva a estar aprendiendo algo nuevo constantemente.
         </Typography>
         <Avatar defaultImage="/avatar.svg" hoverImage="/hover_avatar.svg" />
         <ImgWrapper>
@@ -123,14 +122,10 @@ const LandingPage = ({ location: { pathname } }) => (
     <CenteredContainer variantBackground>
       <CenteredWrapper>
         <Title color="white" fontSize="2rem" fontWeight={700}>
-          Hola, Soy Brian. Un placer conocerte
+          Hola, Soy Brian.
         </Title>
         <Typography color="white" textAlign="center">
-        Soy de Lima, Perú, comenzó mi viaje en el mundo del desarrollo en el año 2017. 
-        Me apasiona el desarrollo web y de escritorio back-end,
-        donde realice la mayoría de mis proyectos y potenciando mis habilidades. 
-        Fanático de aprender por mi propia cuenta las nuevas tecnologías 
-        y ir mejorando profesionalmente constantemente.
+            Soy de Lima-Perú y mi viaje en el mundo del desarrollo comenzó en el año 2017. Me apasiona el desarrollo web y de escritorio backend que fue donde realicé gran parte de mis proyectos y donde potencié mis habilidades. Fanático de aprender, por cuenta propia, las nuevas tecnologías e ir capacitándome profesionalmente de forma constante.
         </Typography>
       </CenteredWrapper>
     </CenteredContainer>
