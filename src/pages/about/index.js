@@ -4,12 +4,12 @@ import { Link } from '@reach/router';
 import styled from 'styled-components';
 
 import projects from '../../services/projects';
-import companies from '../../services/companies';
+//import companies from '../../services/companies';
 
 import SEO from '../../components/seo';
 import Card from './card';
 import Layout from '../../components/layout';
-import Image from '../../components/image';
+//import Image from '../../components/image';
 import ListWrapper from '../../components/list';
 import { Title, Typography } from '../../components/typography';
 
@@ -27,10 +27,10 @@ const Wrapper = styled.div`
   max-width: 80rem;
 `;
 
-const TextWrapper = styled.h2`
+/*const TextWrapper = styled.h2`
   margin: 0 auto;
   max-width: 36rem;
-`;
+`;*/
 
 const CallToAction = styled.span`
   color: #0bd8a2;
@@ -38,13 +38,13 @@ const CallToAction = styled.span`
   font-weight: 550;
 `;
 
-const Divider = styled.div`
+/*const Divider = styled.div`
   background-color: #e6ecf8;
   height: 1px;
   width: 100vw;
-`;
+`;*/
 
-const Company = styled.div`
+/*const Company = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ const Company = styled.div`
   @media (min-width: 968px) {
     margin: 1rem;
   }
-`;
+`;*/
 
 const About = ({ location: { pathname } }) => {
   return (
@@ -83,7 +83,7 @@ const About = ({ location: { pathname } }) => {
             ))}
           </ListWrapper>
         </Wrapper>
-        <Divider />
+       {/* <Divider />
         <Wrapper>
           <TextWrapper>
             <Typography fontSize="1.75rem" fontWeight={700} textAlign="center">
@@ -96,8 +96,8 @@ const About = ({ location: { pathname } }) => {
                 <Image alt={company.name} src={company.logo} maxHeight="7rem" />
               </Company>
             ))}
-          </ListWrapper>
-        </Wrapper>
+            </ListWrapper>
+            </Wrapper>*/}
       </Container>
     </Layout>
   );
